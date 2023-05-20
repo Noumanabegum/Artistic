@@ -1,70 +1,80 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Artistic - React Photography Website
 
-## Available Scripts
+## Live Preview : https://artistic-photography-react.netlify.app/
 
-In the project directory, you can run:
+Artistics is a React-based website that contains a home page, about page, services page, team page, and contact page, accessible via the navigation bar.
 
-### `npm start`
+## Technologies Used :
+Artistics was built using the following technologies:
+* ReactJs
+* Styled Components
+* React Context API
+* React Hooks
+* React Icons
+* React Scroll
+## Getting Started :
+To run Artistics on your local machine, follow these steps:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone the repository to your local machine.
+2. In the project directory, run `npm install` to install the necessary dependencies.
+3. Run `npm start` to start the development server.
+4. Open http://localhost:3000 to view the website in your browser.
+## Sections :
+### Home
+The home section of Artistics includes a hero section with a background image, a brief introduction to your photography, and a get-in-touch button to know more about the website.
+### About
+The about page includes a section for sharing information about the website and experiences. It also includes a gallery of work on this section.
+### Services
+The services section includes information about the photography services you offer, such as professional editing, causual photography and wedding photography. 
+### Team
+The team section showcases the photography team and includes photos and bios for each team member.
+### Contact
+The contact section includes a form for visitors to send you a message and inquire about the photography services.
+## Screenshots :
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Home
+![App Screenshot](https://github.com/Noumanabegum/Artistic/blob/master/Screenshots/home.jpg?raw=true)
 
-### `npm test`
+### About
+![App Screenshot](https://github.com/Noumanabegum/Artistic/blob/master/Screenshots/about.jpg?raw=true)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Services
+![App Screenshot](https://github.com/Noumanabegum/Artistic/blob/master/Screenshots/services.jpg?raw=true)
 
-### `npm run build`
+### Team
+![App Screenshot](https://github.com/Noumanabegum/Artistic/blob/master/Screenshots/team.jpg?raw=true)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Contact
+![App Screenshot](https://github.com/Noumanabegum/Artistic/blob/master/Screenshots/contact.jpg?raw=true)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Theme 
+The website can be viewed in two different themes.
+1. Dark Theme
+2. Light Theme
+![App Screenshot](https://github.com/Noumanabegum/Artistic/blob/master/Screenshots/theme.jpg?raw=true)
+## Features :
+1. Responsive Design : Ensure your website looks great and functions well on various devices and screen sizes, providing an optimal user experience.
+2. News Section : If you want to share photography tips, industry insights, or updates about your work, consider adding a news section.
+3. Interactive Components : Add interactive elements like image sliders, or hover effects to enhance user engagement and visual appeal.
+4. Newsletter Subscription : Provide an option for visitors to subscribe to your newsletter to receive updates, special offers, or photography tips.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Customization :
+To customize the Artistics website for your own photography business, you can modify the following files:
+* `src/components/Navigation.js `: Edit the navigation bar links and text to match your pages.
+*  `src/pages/Home.js `: Update the hero section text, call-to-action button text, and background image.
+*  `src/pages/About.js `: Update the about section text and add your own photo gallery.
+*  `src/pages/Services.js `: Update the services section text, pricing information, and package details.
+*  `src/pages/Team.js `: Update the team member photos and bios.
+*  `src/pages/Contact.js `: Update the form fields and message text.
+## Demo :
 
-### `npm run eject`
+Watch Video - https://www.loom.com/share/1fa16295d91c4d80a17f3dd34f4a1e5d
+## Feedback :
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+If you have any feedback, please reach out to me at noumanab422@gmail.com
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## License :
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the [MIT](https://choosealicense.com/licenses/mit/) License. See the LICENSE file for more information.
